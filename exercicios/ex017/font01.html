@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <Style>
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            /*
+            Medidas Absolutas 
+            cm, mm. in(polegadas), px, (pt, pc) inapropriado para tela
+
+            Medidas Relativas
+            em(tamanho da letra), ex(altura x do caractere), rem(tipo em, porém relacionada a font do corpo), vw(largura wiewport), vh(Altura viewport), %
+            Recomendado usar px ou em para font-size
+            16px é o tamanho natural das letras
+            16px = 1em
+            */
+            font-size: 16px ;
+            display: inline-block;    
+        }
+        h1{
+            /*
+            shorthand fontes
+            -font-style: font-style -> font-weight -> font-size -> font-family
+
+            substitui
+            font-size: 'Work Sans', sans serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font-style: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2{
+            font-style: italic bold 2em 'Work Sans', sans-serif;
+        }
+        p{
+            font-style: normal normal 1em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        }
+    </Style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit quos minima rem odit molestias veniam commodi ad velit. Eum necessitatibus eius consectetur porro id placeat veritatis voluptatem numquam dignissimos eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla officia cupiditate labore aspernatur. Tempore, quisquam! Corporis ut corrupti voluptate libero temporibus nulla, facere molestias impedit explicabo qui eligendi aperiam autem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque adipisci, ipsum ea a commodi quia dicta suscipit, iure cupiditate quo nobis ut neque vero nesciunt sit repellendus doloremque earum quod!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ducimus cumque quod soluta, et magnam ab alias temporibus corporis, accusamus recusandae hic iure eligendi commodi! Nostrum, quas nesciunt. Quae, quaerat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. At deleniti saepe provident dolorum quibusdam eos, placeat eaque velit? Sunt molestiae, asperiores repellendus nisi illo molestias doloremque quis blanditiis laudantium deleniti?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, praesentium, aliquid dolorum consequatur quo placeat harum dolorem architecto vitae sapiente alias quidem ab nihil molestias natus iure. Quaerat, sequi pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, tempore molestiae? Possimus corporis ratione velit nobis qui ad quae, dolore fugit error aperiam repellendus blanditiis aut optio mollitia, dicta voluptatibus?</p>
+</body>
+</html>

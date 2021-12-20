@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+        }
+        header{
+            background-color: white;
+            margin: 10px auto;
+            padding: 5px 10px;
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.253);
+        }
+        nav{
+            background-color: black;
+            padding: 3px;
+        }
+        nav > a{
+            text-decoration: none;
+            color:white;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: lightsalmon;
+            border: 2px solid lightsalmon;
+        }
+        h1 > a{
+            font-size: 2em;
+            text-decoration: none;
+        }
+        main{
+            background-color:white;
+            margin: 10px auto;
+            padding: 5px 10px;
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.253);
+        }
+        section{
+           background-color: rgb(216, 216, 216);
+        }
+        section > p{
+            font-weight: bold;
+            text-decoration: underline;
+            padding-left: 10px;
+            border-radius: 10px;
+        }
+        #noticias{
+            border-radius: 0 10px 0 10px;
+            text-justify: auto;
+        }
+        
+    
+        article > aside{
+            background-color: grey;
+            color: purple;
+            font-weight: bold;
+            text-align: right;
+            padding: 0 20px;
+            border-bottom-left-radius: 10px;
+        }        
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+        }
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="">Meu site</a></h1>
+        <nav> 
+            <a href="http://">Home</a>
+            <a href="http://">Contact</a>
+            <a href="http://">Products</a>
+            <a href="http://">About</a>
+        </nav>
+    </header>
+    <main>
+        
+        <section id="assuntos">
+            <p>Esportes, Política e tudo mais...</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt molestiae aperiam, dolorum commodi deserunt eaque. Saepe dolorem fugit ratione dignissimos nam mollitia facere omnis, eius itaque laboriosam voluptates fugiat soluta?</p>
+                <aside>
+                    <p>Desenvolvido por Dayvson</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por &copy Dayvson Barros</p>
+    </footer>
+</body>
+</html>

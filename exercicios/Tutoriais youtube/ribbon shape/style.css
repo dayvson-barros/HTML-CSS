@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    background: #fff;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    position: relative;
+    width: 500px;
+    height: 700px;
+    align-items: center;
+    background: #eff;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+.card i{
+    position:absolute;
+    width: 500px;
+    height: 80px;
+    top: 60px;
+    left: -30px;
+    background: rgb(206, 0, 206);
+    border-radius: 50px 50px 50px 0;
+}
+.card i::before
+{
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 30px;
+    top: 80px;
+    background:purple;
+    border-radius: 50px 0 0 50px;
+    z-index: 2;
+}
+
+.card i::after
+{
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 80px;
+    background: rgb(206, 0, 206);;
+
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+
+body{
+    font-family: 'Meow Script', cursive;
+    font-size: large;
+    display: flex;
+    background: rgb(0, 0, 0);
+    position: relative;
+    color: white;
+    width:100vw;
+   min-height: 50vw;  
+}
+
+.navigation{
+    position: absolute;
+    width: 100vw;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    background:rgb(11, 255, 243);
+    
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 0 2px black;
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 400px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.canal{
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 470px;
+    width: 100vw;
+    height:50px;
+    }
+
+    .back{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 500px;
+    width: 100vw;
+    height:50px;
+    }
