@@ -8,28 +8,62 @@
     <style>
         body{
             height: 100vh;
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-repeat: no-repeat;
             background-position: center center;
+            background-repeat: no-repeat;
             background-size: cover;
-   
+            background-attachment: fixed;
+            
+            
+            Shorthand - background 
+            color > image > position > repeat > [size] > attachment 
+            */
+            background: black url('imagens/wallpaper002.jpg') center no-repeat fixed;
+            background-size: cover;
         }
+        
         main{
             background-color: white;
             width: 400px;
             padding: 10px;
             border-radius: 20px;
-            margin: auto;
-            border: 2px solid blue;
+            margin: 45px auto;
+            -webkit-appearance: none;
+            box-shadow: inset 1px 1px 3px rgb(224, 217, 217), inset 3px 2px 5px rgba(216, 212, 212, 0.514), 0 0 10px rgb(223, 217, 217), 3px 3px 10px gray;
+        }
+        
+        h1{
+            font-size: 35px;
+            text-align: center;
 
         }
+        h1:hover{
+            color: rgb(122, 145, 186);
+            font-weight: Bolder;
+            border: 1px double rgb(122, 145, 186);
+            border-radius: 15px;
+            background-color: blue;
+        }
+        p{
+            text-align: justify;
+            text-indent: 45px;
+        }
+        p:hover{
+            font-size: 18px;
+            font-weight: 200;
+        }
+
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aperiam magni facere vel natus cum pariatur amet molestiae, temporibus recusandae maxime aliquam! Quis mollitia rem porro rerum totam culpa excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. At consequatur dolorum perferendis incidunt asperiores dolorem cupiditate inventore autem? Saepe, minus deleniti? Voluptatum omnis doloremque, nobis modi odit est mollitia blanditiis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, adipisci! Molestiae excepturi, culpa nulla repellat ipsum tenetur non explicabo, quaerat sunt aut repellendus vel qui, aliquid illum. Ad, minus ea!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facilis incidunt ab porro recusandae consectetur dolor. Voluptate cumque laborum sit laudantium ab, repudiandae dolor, explicabo iusto omnis atque, reprehenderit quaerat? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem optio esse illo blanditiis reprehenderit veniam eveniet quas quae, animi neque nemo autem non, minima quo aliquid dolorum repellendus et est.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, ab quasi iste id aliquam sequi quam quibusdam modi nulla mollitia reprehenderit et quae perspiciatis illum blanditiis corrupti voluptatum explicabo veniam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, minus possimus nihil repellat praesentium magni, itaque, sequi cupiditate culpa mollitia aperiam sit rerum. Et inventore ratione quo fugiat eaque cupiditate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis porro rem sint rerum, mollitia nobis eos. Temporibus praesentium repellat pariatur? Itaque vero, reiciendis facere quam id quis qui reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet assumenda sed labore quos ratione, ipsam suscipit. Voluptatibus necessitatibus sint pariatur! Aut numquam ad libero quas impedit sed aspernatur quidem placeat!</p>
     </main>
     
 </body>
