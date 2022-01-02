@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    caption{
+        font-size: 1.5em;
+        font-weight: bold;
+        background:rgb(149, 202, 207);
+        padding: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    table{
+        position: relative;
+        width: 500px;
+        height: 100px;
+        border-collapse: collapse;
+    }
+    .pop{
+        width: 50px;
+    }
+    thead, tfoot{
+        background-color: gray;
+        color: white;
+        font-weight: bold;
+        font-variant: small-caps;
+    }
+    thead > tr > td{
+            text-align: center;
+    }
+    thead > tr > th{
+        position: sticky;
+        top: -1px;
+        background-color: gray;
+    }
+    td, th{
+        border: solid 1px black;
+        padding: 10px
+    }
+    tbody > tr:nth-child(even){ /*2n*/
+        background-color: aliceblue;
+    }
+    tbody > tr:nth-child(odd){ /*2n-1*/
+        background-color: rgb(0, 136, 255);
+    }
+    .numero{
+        text-align: right;
+    }
+    
+</style>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABELA
+        CAPTION
+            THREAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    --> 
+   
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th class="pop" scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9557071</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45919049</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4050230</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9557071</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45919049</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4050230</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9557071</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45919049</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4050230</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9557071</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45919049</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4050230</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9557071</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45919049</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4050230</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9557071</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45919049</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4050230</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9557071</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45919049</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4050230</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9557071</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45919049</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4050230</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9557071</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45919049</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4050230</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9557071</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45919049</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4050230</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9557071</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45919049</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4050230</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="numero">59526350</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestiae excepturi magni inventore. Minima ipsam vitae saepe pariatur adipisci eius inventore illum? Maiores dolor error inventore neque quae vel ad! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda dolorem voluptatem ratione tenetur ut iste repudiandae, eius ipsa impedit maxime eaque aliquid obcaecati dignissimos voluptatum facere? Inventore omnis temporibus minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium perferendis ab tempore sit tenetur neque facere nesciunt enim repellat, nisi veniam, id, repudiandae eos sunt ad expedita culpa autem reiciendis!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestiae excepturi magni inventore. Minima ipsam vitae
+    saepe pariatur adipisci eius inventore illum? Maiores dolor error inventore neque quae vel ad! Lorem ipsum dolor
+    sit, amet consectetur adipisicing elit. Assumenda dolorem voluptatem ratione tenetur ut iste repudiandae, eius ipsa
+    impedit maxime eaque aliquid obcaecati dignissimos voluptatum facere? Inventore omnis temporibus minima. Lorem ipsum
+    dolor sit amet consectetur adipisicing elit. Praesentium perferendis ab tempore sit tenetur neque facere nesciunt
+    enim repellat, nisi veniam, id, repudiandae eos sunt ad expedita culpa autem reiciendis!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestiae excepturi magni inventore. Minima ipsam vitae
+    saepe pariatur adipisci eius inventore illum? Maiores dolor error inventore neque quae vel ad! Lorem ipsum dolor
+    sit, amet consectetur adipisicing elit. Assumenda dolorem voluptatem ratione tenetur ut iste repudiandae, eius ipsa
+    impedit maxime eaque aliquid obcaecati dignissimos voluptatum facere? Inventore omnis temporibus minima. Lorem ipsum
+    dolor sit amet consectetur adipisicing elit. Praesentium perferendis ab tempore sit tenetur neque facere nesciunt
+    enim repellat, nisi veniam, id, repudiandae eos sunt ad expedita culpa autem reiciendis!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestiae excepturi magni inventore. Minima ipsam vitae
+    saepe pariatur adipisci eius inventore illum? Maiores dolor error inventore neque quae vel ad! Lorem ipsum dolor
+    sit, amet consectetur adipisicing elit. Assumenda dolorem voluptatem ratione tenetur ut iste repudiandae, eius ipsa
+    impedit maxime eaque aliquid obcaecati dignissimos voluptatum facere? Inventore omnis temporibus minima. Lorem ipsum
+    dolor sit amet consectetur adipisicing elit. Praesentium perferendis ab tempore sit tenetur neque facere nesciunt
+    enim repellat, nisi veniam, id, repudiandae eos sunt ad expedita culpa autem reiciendis!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestiae excepturi magni inventore. Minima ipsam vitae
+    saepe pariatur adipisci eius inventore illum? Maiores dolor error inventore neque quae vel ad! Lorem ipsum dolor
+    sit, amet consectetur adipisicing elit. Assumenda dolorem voluptatem ratione tenetur ut iste repudiandae, eius ipsa
+    impedit maxime eaque aliquid obcaecati dignissimos voluptatum facere? Inventore omnis temporibus minima. Lorem ipsum
+    dolor sit amet consectetur adipisicing elit. Praesentium perferendis ab tempore sit tenetur neque facere nesciunt
+    enim repellat, nisi veniam, id, repudiandae eos sunt ad expedita culpa autem reiciendis!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestiae excepturi magni inventore. Minima ipsam vitae
+    saepe pariatur adipisci eius inventore illum? Maiores dolor error inventore neque quae vel ad! Lorem ipsum dolor
+    sit, amet consectetur adipisicing elit. Assumenda dolorem voluptatem ratione tenetur ut iste repudiandae, eius ipsa
+    impedit maxime eaque aliquid obcaecati dignissimos voluptatum facere? Inventore omnis temporibus minima. Lorem ipsum
+    dolor sit amet consectetur adipisicing elit. Praesentium perferendis ab tempore sit tenetur neque facere nesciunt
+    enim repellat, nisi veniam, id, repudiandae eos sunt ad expedita culpa autem reiciendis!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestiae excepturi magni inventore. Minima ipsam vitae
+        saepe pariatur adipisci eius inventore illum? Maiores dolor error inventore neque quae vel ad! Lorem ipsum dolor
+        sit, amet consectetur adipisicing elit. Assumenda dolorem voluptatem ratione tenetur ut iste repudiandae, eius ipsa
+        impedit maxime eaque aliquid obcaecati dignissimos voluptatum facere? Inventore omnis temporibus minima. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Praesentium perferendis ab tempore sit tenetur neque facere nesciunt
+        enim repellat, nisi veniam, id, repudiandae eos sunt ad expedita culpa autem reiciendis!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestiae excepturi magni inventore. Minima ipsam vitae
+        saepe pariatur adipisci eius inventore illum? Maiores dolor error inventore neque quae vel ad! Lorem ipsum dolor
+        sit, amet consectetur adipisicing elit. Assumenda dolorem voluptatem ratione tenetur ut iste repudiandae, eius ipsa
+        impedit maxime eaque aliquid obcaecati dignissimos voluptatum facere? Inventore omnis temporibus minima. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Praesentium perferendis ab tempore sit tenetur neque facere nesciunt
+        enim repellat, nisi veniam, id, repudiandae eos sunt ad expedita culpa autem reiciendis!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestiae excepturi magni inventore. Minima ipsam vitae
+        saepe pariatur adipisci eius inventore illum? Maiores dolor error inventore neque quae vel ad! Lorem ipsum dolor
+        sit, amet consectetur adipisicing elit. Assumenda dolorem voluptatem ratione tenetur ut iste repudiandae, eius ipsa
+        impedit maxime eaque aliquid obcaecati dignissimos voluptatum facere? Inventore omnis temporibus minima. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Praesentium perferendis ab tempore sit tenetur neque facere nesciunt
+        enim repellat, nisi veniam, id, repudiandae eos sunt ad expedita culpa autem reiciendis!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestiae excepturi magni inventore. Minima ipsam vitae
+        saepe pariatur adipisci eius inventore illum? Maiores dolor error inventore neque quae vel ad! Lorem ipsum dolor
+        sit, amet consectetur adipisicing elit. Assumenda dolorem voluptatem ratione tenetur ut iste repudiandae, eius ipsa
+        impedit maxime eaque aliquid obcaecati dignissimos voluptatum facere? Inventore omnis temporibus minima. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Praesentium perferendis ab tempore sit tenetur neque facere nesciunt
+        enim repellat, nisi veniam, id, repudiandae eos sunt ad expedita culpa autem reiciendis!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In molestiae excepturi magni inventore. Minima ipsam vitae
+            saepe pariatur adipisci eius inventore illum? Maiores dolor error inventore neque quae vel ad! Lorem ipsum dolor
+            sit, amet consectetur adipisicing elit. Assumenda dolorem voluptatem ratione tenetur ut iste repudiandae, eius ipsa
+            impedit maxime eaque aliquid obcaecati dignissimos voluptatum facere? Inventore omnis temporibus minima. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Praesentium perferendis ab tempore sit tenetur neque facere nesciunt
+            enim repellat, nisi veniam, id, repudiandae eos sunt ad expedita culpa autem reiciendis!</p>
+</body>
+</html>
